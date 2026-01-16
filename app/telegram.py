@@ -8,7 +8,6 @@ load_dotenv()
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_API = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}"
 
-# Simple in-memory user session (OK for MVP)
 user_modes = {}
 
 def send_message(chat_id: int, text: str):
