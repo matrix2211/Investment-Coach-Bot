@@ -92,5 +92,6 @@ Create a `.env` file locally:
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
+```
 
 ![Showcase](img/showcase.png)
